@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/Index.css">
     <title>Address Book App</title>
+    <script src="../javascript/FormValidator.js"></script>
 </head>
 
 <body>
@@ -40,12 +41,13 @@
    <div class="form-start">
     <div class="row-content">
         <label class="label text" for="name">Full Name</label><br>
-        <input class="input" type="text" id="name" name="name" placeholder="Enter your name" required>
+        <input class="input" type="text" id="name" name="name" placeholder="Enter your name" required maxlength="20">
         <error-output class="text-error"></error-output>
     </div>
     <div class="row-content">
         <label class="label text" for="address">Address</label><br>
         <textarea id="address" class="input" name="address" placeholder="Enter your address" style="height: 100px; "></textarea>
+        <error-output class="address-error"></error-output>
     </div>
     
     
@@ -85,7 +87,7 @@
     </div>
     <div class="row-content">
         <label class="label text" for="phone">Phone Number</label><br>
-        <input class="input" type="tel " id="phone " name="phone" placeholder="Enter your phone number..." required>
+        <input class="input" type="tel " id="phone" name="phone" placeholder="Enter your phone number..." required maxlength="10" minlength="10">
         <error-output class="phone-error"></error-output>
     </div>
     <div class="buttonParent">
