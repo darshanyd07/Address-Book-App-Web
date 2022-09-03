@@ -68,7 +68,7 @@ body {
     font-size: 25px;
     font-weight: normal;
     justify-content: space-between;
-    width: 100%;
+    width: 110%;
     color: rgb(255, 255, 255);
     background: #0099ff;
     padding-top: 30px;
@@ -99,4 +99,73 @@ body {
     width: 30px;
     padding: 4px;
     text-align: center;
+}
+/* UC3 */
+
+.form-start {
+    margin-left: 5%;
+    margin-top: 5%;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.row-content {
+    flex-direction: row;
+    margin-bottom: 5px;
+    justify-content: center;
+    background-color: white;
+    margin-left: 15%;
+}
+
+.input {
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.text {
+    font-size: 16px;
+    color: #42525f;
+    opacity: 1;
+    font-family: Roboto, Regular;
+}
+
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+.column-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 4%;
+}
+
+select {
+    margin-right: 20px;
+    width: 220px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    letter-spacing: 0px;
+    resize: vertical;
+    color: #424242;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.zip-text {
+    width: 210px;
 }
